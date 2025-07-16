@@ -67,6 +67,19 @@ state = torch.matmul(self.patterns.t(), attention_weights)
 - **Robustness**: Exponentially small retrieval errors with noisy inputs  
 - **Applications**: Modern Hopfield layers enable pooling, memory, and attention in deep learning
 
+## Citation
+
+If you use my code in your research, please cite me:
+
+```bibtex
+@software{pjm2025Hopfield,
+  author = {Paul J Mello},
+  title = {Hopfield Networks},
+  url = {https://github.com/pauljmello/Hopfield-Networks},
+  year = {2025},
+}
+```
+
 ## References
 [1] Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities  
 [2] Ramsauer, H., et al. (2020). Hopfield Networks is All You Need. arXiv:2008.02217
